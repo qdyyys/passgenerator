@@ -2,6 +2,7 @@ import { FC, ReactNode } from "react";
 interface IconButtonProps {
   children: ReactNode;
   onClick: () => void;
+  className?: string;
 }
 
 const IconButton: FC<IconButtonProps> = (props) => {
