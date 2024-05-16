@@ -2,7 +2,6 @@ import { FC, ReactNode } from "react";
 interface IconButtonProps {
   children: ReactNode;
   onClick: () => void;
-  className?: string;
 }
 
 const IconButton: FC<IconButtonProps> = (props) => {
@@ -14,7 +13,7 @@ const IconButton: FC<IconButtonProps> = (props) => {
   items-center
   justify-center
   rounded-lg
-  hover:bg-gray-500
+  bg-gray-500
   transition-all
   `;
   return (

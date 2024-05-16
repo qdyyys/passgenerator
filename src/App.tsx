@@ -127,7 +127,7 @@ function App() {
                 }}
                 className={`
                 ${
-                  activeTabs.includes(tab.value) ? "bg-gray-500" : "bg-gray-600"
+                  activeTabs.includes(tab.value) ? "bg-gray-400" : "bg-gray-600"
                 }
                 bg-gray-600 text-md font-bold flex-1 items-center py-2`}
                 key={idx}
